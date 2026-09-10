@@ -1,0 +1,1 @@
+import mongoose,{Schema}from"mongoose";const schema=new Schema({lotId:Schema.Types.ObjectId,buyerId:Schema.Types.ObjectId,buyerName:String,price:Number,status:{type:String,default:"pending"}},{timestamps:true});export default mongoose.model("Offer",schema);

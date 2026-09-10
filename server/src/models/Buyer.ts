@@ -1,0 +1,1 @@
+import mongoose,{Schema}from"mongoose";const schema=new Schema({name:String,crops:[String],offeredPrice:Number,requirements:String,paymentReliability:Number,verified:Boolean});export default mongoose.model("Buyer",schema);

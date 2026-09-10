@@ -1,0 +1,1 @@
+{"name":"krishi-setu","private":true,"scripts":{"install-all":"npm install --prefix client && npm install --prefix server","dev":"concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""},"devDependencies":{"concurrently":"^9.2.4"}}
